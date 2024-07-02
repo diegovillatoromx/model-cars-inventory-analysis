@@ -1,2 +1,14 @@
-# model-cars-inventory-analysis
-Welcome to the model-cars-inventory-analysis project repository. This project was developed to support Mint Classics Company in making informed inventory-related business decisions aimed at closing one of their storage facilities.
+# Model Cars Inventory Analysis for Mint Classics Company
+
+### Overview:
+Welcome to the `model-cars-inventory-analysis` repository. This project dives into the detailed analysis of model cars inventory data for Mint Classics Company. The aim is to leverage database management techniques and SQL queries to support strategic business decisions regarding inventory management and facility closure.
+
+### Project Scenario:
+Mint Classics Company, a distinguished retailer specializing in classic model cars and vehicles, is contemplating the closure of one of its storage facilities. To facilitate this decision with data-driven insights, the company seeks recommendations on optimizing inventory while maintaining efficient customer service. Specifically, they aim to fulfill customer orders within 24 hours of placement.
+
+As a data analyst on this project, your task involves utilizing MySQL Workbench to explore and analyze the provided dataset. You will examine the data model and sample tables to identify opportunities for inventory reduction or reorganization. This analysis will be supported by SQL queries aimed at answering critical questions:
+
+- Inventory Location Optimization: Assessing the feasibility of consolidating or reorganizing warehouse space.
+- Inventory-Sales Relationship: Analyzing the correlation between inventory levels and sales figures to optimize stock levels.
+- Identification of Non-Moving Items: Identifying products with low turnover rates to consider for removal from the product line.
+- The insights derived from this analysis will inform recommendations aimed at achieving efficient inventory management and supporting the closure of a storage facility.
