@@ -43,3 +43,6 @@ model-cars-inventory-analysis/
     ├── sales_figures.png      # Graph showing sales figures
     └── non_moving_items.png   # Graph showing non-moving items
 ```
+
+## EER Diagram
+
