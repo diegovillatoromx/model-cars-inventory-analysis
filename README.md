@@ -13,10 +13,9 @@ As a data analyst on this project, your task involves utilizing MySQL Workbench 
 - Identification of Non-Moving Items: Identifying products with low turnover rates to consider for removal from the product line.
 - The insights derived from this analysis will inform recommendations aimed at achieving efficient inventory management and supporting the closure of a storage facility.
 
+## Repository Structure
 
 ```plaintext
-### Repository Structure
-
 model-cars-inventory-analysis/
 ├── datasets/
 │   ├── customers.csv       # Customer data
