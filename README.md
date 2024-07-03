@@ -13,6 +13,11 @@ As a data analyst on this project, your task involves utilizing MySQL Workbench 
 - Identification of Non-Moving Items: Identifying products with low turnover rates to consider for removal from the product line.
 - The insights derived from this analysis will inform recommendations aimed at achieving efficient inventory management and supporting the closure of a storage facility.
 
+## EER Diagram
+
+![diagram](https://github.com/diegovillatoromx/model-cars-inventory-analysis/blob/main/model-cars-inventory-analysis/diagrams/EER.png)
+
+
 ## Repository Structure
 
 ```plaintext
@@ -44,7 +49,40 @@ model-cars-inventory-analysis/
     └── non_moving_items.png   # Graph showing non-moving items
 ```
 
-## EER Diagram
 
-![diagram](https://github.com/diegovillatoromx/model-cars-inventory-analysis/blob/main/model-cars-inventory-analysis/diagrams/EER.png)
+
+## Import and Execute Scripts in MySQL Workbench
+
+### Step 1: Create the Tables
+
+1. **Open MySQL Workbench**:
+   - Launch MySQL Workbench on your computer.
+
+2. **Open a New SQL Editor**:
+   - Click on the `+` icon to open a new SQL editor tab. Alternatively, you can navigate to `File` > `New Query Tab`.
+
+3. **Copy and Paste the Content of `create_tables.sql`**:
+   - Open the `create_tables.sql` file in a text editor.
+   - Copy the entire content of the file.
+
+4. **Execute the Script to Create the Tables**:
+   - Paste the copied SQL script into the new SQL editor tab in MySQL Workbench.
+   - Ensure you have selected the appropriate database schema where the tables will be created.
+   - Click on the lightning bolt icon (Execute) to run the script, which will create all the necessary tables for your database.
+
+### Step 2: Insert the Data
+
+1. **Open a New SQL Editor**:
+   - If you closed the previous SQL editor, open a new one by clicking on the `+` icon or navigating to `File` > `New Query Tab`.
+
+2. **Copy and Paste the Content of `insert_data.sql`**:
+   - Open the `insert_data.sql` file in a text editor.
+   - Copy the entire content of the file.
+
+3. **Execute the Script to Insert Data into the Tables**:
+   - Paste the copied SQL script into the new SQL editor tab in MySQL Workbench.
+   - Again, ensure you have selected the appropriate database schema where the data will be inserted.
+   - Click on the lightning bolt icon (Execute) to run the script, which will insert the data from your CSV files into the corresponding tables.
+
+By following these detailed steps, you will successfully create the tables and insert the necessary data into your MySQL database, ensuring it is ready for further analysis and queries.
 
