@@ -46,3 +46,6 @@ model-cars-inventory-analysis/
 
 ## EER Diagram
 
+![diagram](https://github.com/diegovillatoromx/flink-kinesis-streaming-pipeline/blob/main/images/flink_kinesis.png) 
+
+
