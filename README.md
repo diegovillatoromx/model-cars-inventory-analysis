@@ -1,5 +1,5 @@
 # Model Cars Inventory Analysis for Mint Classics Company
-
+ 
 ### Overview:
 Welcome to the `model-cars-inventory-analysis` repository. This project dives into the detailed analysis of model cars inventory data for Mint Classics Company. The aim is to leverage database management techniques and SQL queries to support strategic business decisions regarding inventory management and facility closure.
 
